@@ -60,11 +60,8 @@ def player_choice(name):
     
 
 def main():
-    
     print "Welcome to the Word Game."
-    
     name = raw_input("What's your name?\n>")
-    
     print """Hi! %s, the following are the rules of this game. 
     - You'll get an English alphabet. 
     - You have to enter a word starting from that alphabet. 
@@ -72,7 +69,6 @@ def main():
     - In the same way, you enter the third word and so on..
     - You'll get 10 points for every word and additional 10 points for every 5 words.
     - You have a choice between a random letter a letter of your name for your first word.""" % name
-    
     player_choice(name)
     
      

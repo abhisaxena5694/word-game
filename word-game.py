@@ -44,7 +44,7 @@ def player_name(name):
     start(letter)
 
 def player_choice(name):
-    print """Enter MY NAME if you want to start with the a letter of your name, or RANDOM if you want to go for a random alphabet."""
+    print """Enter MY NAME if you want to start with a letter of your name, or RANDOM if you want to go for a random alphabet."""
     choice = raw_input(">")
     while choice != "MY NAME" or choice != "RANDOM":
         if choice.upper() == "MY NAME":
